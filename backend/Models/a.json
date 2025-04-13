@@ -1,0 +1,4 @@
+{
+  "query": "\n        query GetTaskById($id: Int!) {\n          taskById(id: $id) { # Use the backend method name\n            id\n            title\n            description\n            status\n            priority\n            dueDate\n            createdAt\n            lastUpdated\n            tags\n            category\n            creatorId # Add any other fields you need\n          }\n        }\n      ",
+  "variables": { "id": "288" }
+}

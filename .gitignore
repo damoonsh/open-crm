@@ -1,0 +1,6 @@
+api_test/
+backend/bin/
+backend/obj/
+backend/Migrations/
+backend/registered_users.json
+.DS_Store

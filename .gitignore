@@ -4,3 +4,4 @@ backend/obj/
 backend/Migrations/
 backend/registered_users.json
 .DS_Store
+./.kiro/
